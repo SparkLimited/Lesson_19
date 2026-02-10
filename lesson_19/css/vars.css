@@ -1,0 +1,24 @@
+:root {
+    --colorBGmain: #fff;
+    --colorMain: #000;
+    --fontSizeTitle: #000;
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --color-accent: #e74c3c;
+    --color-text: #333333;
+    
+    
+    --font-family: "Arial", sans-serif;
+    --font-size-base: 16px;
+    --font-size-heading: 2rem;
+
+
+    --spacing-small: 8px;
+    --spacing-medium: 16px;
+    --spacing-large: 32px;
+
+    --border-radius: 4px;
+    --transition-speed: 0.3s;
+
+
+}
