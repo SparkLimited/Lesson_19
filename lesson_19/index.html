@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="preload" hred="fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/fonts.css">
+		<title>Lesson 19</title>
+	</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<h1>Header</h1>
+		</header>
+		<main class="page">
+			<section class="viewport">
+				<h2 class="viewport__title">viewport</h2>
+			</section>
+			<section class="parent-element">
+				<div class="parent-element__container">
+					<h2>Відносні одиниці</h2>
+					<div class="percentages-wh">
+						width: 30% від ШБЕ <br>
+						height: 50% від ВБЕ
+					</div>
+					<div class="percentages-pm">
+						padding: 3% 5%; від ШБЕ <br>
+						margin: 2% 5%; від ШБЕ
+					</div>
+					<div class="position-wrapper">
+						<div class="reference-box"></div>
+						<div class="percentages-position">
+							top: -2rem; <br>
+							left: 10%;
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="clamp">
+				<div class="clamp__container">
+					<h2>Clamp</h2>
+					<p class="clamp__text">
+						 Функція яка фіксує середнє значення в діапазоні значень між визначеною мінімальною межею та максимальною межею.<br> 
+						 Функція приймає три параметри: (мінімальне значення, бажане значення та максимально допустиме значення)
+					</p>
+				</div>
+			</section>
+
+			<section class="cursors">
+				<div class="cursors__container">
+					<h2>cursors</h2>
+					<ul class="cursors__list">
+						<li class="cursors__item cursors__item--auto">
+							auto
+						</li>
+						<li class="cursors__item cursors__item--default">
+							default
+						</li>
+						<li class="cursors__item cursors__item--none">
+							none
+						</li>
+						<li class="cursors__item cursors__item--context-menu">
+							context-menu
+						</li>
+                        <li class="cursors__item cursors__item--help">
+							help
+						</li>
+						<li class="cursors__item cursors__item--pointer">
+							pointer
+						</li>
+						<li class="cursors__item cursors__item--progress">
+							progress
+						</li>
+						<li class="cursors__item cursors__item--wait">
+							wait
+						</li>
+						<li class="cursors__item cursors__item--cell">
+							cell
+						</li>
+						<li class="cursors__item cursors__item--crosshair">
+							crosshair
+						</li>
+						<li class="cursors__item cursors__item--text">
+							text
+						</li>
+						<li class="cursors__item cursors__item--vertical-text">
+							vertical-text
+						</li>
+						<li class="cursors__item cursors__item--alias">
+							alias
+						</li>
+						<li class="cursors__item cursors__item--copy">
+							copy
+						</li>
+						<li class="cursors__item cursors__item--move">
+							move
+						</li>
+						<li class="cursors__item cursors__item--no-drop">
+							no-drop
+						</li>
+						<li class="cursors__item cursors__item--not-allowed">
+							not-allowed
+						</li>
+						<li class="cursors__item cursors__item--all-scroll">
+							all-scroll
+						</li>
+						<li class="cursors__item cursors__item--col-resize">
+							col-resize
+						</li>
+						<li class="cursors__item cursors__item--row-resize">
+							row-resize
+						</li>
+						<li class="cursors__item cursors__item--n-resize">
+							n-resize
+						</li>
+						<li class="cursors__item cursors__item--e-resize">
+							e-resize
+						</li>
+						<li class="cursors__item cursors__item--s-resize">
+							s-resize
+						</li>
+						<li class="cursors__item cursors__item--w-resize">
+							w-resize
+						</li>
+						<li class="cursors__item cursors__item--ne-resize">
+							ne-resize
+						</li>
+						<li class="cursors__item cursors__item--nw-resize">
+							nw-resize
+						</li>
+						<li class="cursors__item cursors__item--se-resize">
+							se-resize
+						</li>
+						<li class="cursors__item cursors__item--sw-resize">
+							sw-resize
+						</li>
+						<li class="cursors__item cursors__item--ew-resize">
+							ew-resize
+						</li>
+						<li class="cursors__item cursors__item--ns-resize">
+							ns-resize
+						</li>
+						<li class="cursors__item cursors__item--nesw-resize">
+							nesw-resize
+						</li>
+						<li class="cursors__item cursors__item--nwse-resize">
+							nwse-resize
+						</li>
+						<li class="cursors__item cursors__item--zoom-in">
+							zoom-in
+						</li>
+						<li class="cursors__item cursors__item--zoom-out">
+							zoom-out
+						</li>
+						<li class="cursors__item cursors__item--grab">
+							grab
+						</li>
+						<li class="cursors__item cursors__item--grabbing">
+							grabbing
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<!-- <section class="pointer-events">
+				<div class="pointer-events__container">
+					<h2>Pointer-Events</h2>
+					<div class="pointer-events__inner">
+						<img src="./img/img_two.jpeg" alt="mount lake">
+						<a href="#" class="pointer-events__link">
+							You're invited to a bright and joyful Festival of Colors this
+                            Saturday
+						</a>
+					</div>
+				</div>
+			</section> -->
+
+			<section class="writing-mode">
+				<div class="writing-mode__container">
+					<h2>Writing mode</h2>
+					<div class="grid">
+						<div class="grid__item">chinese</div>
+						<div class="grid__item">japanese</div>
+						<div class="grid__item">english</div>
+						<div class="grid__item">english</div>
+						<div class="grid__item">arabic</div>
+						<div class="grid__item">
+							writing-mode: vertical-rl;<br>
+							text-orientation: mixed;<br>
+							padding-block: 10px;
+						</div>
+						<div class="grid__item">
+							writing-mode: vertical-rl;<br>
+							text-orientation: upright;<br>
+							padding-inline: 10px;
+						</div>
+						<div class="grid__item">
+							text-orientation: mixed;<br>
+							writing-mode: vertical-lr;<br>
+							padding-inline: 16px;<br>
+							padding-block: 10px;
+						</div>
+						<div class="grid__item">
+							text-orientation: upright;<br>
+							writing-mode: vertical-lr;<br>
+							padding-left: 10px;
+						</div>
+						<div class="grid__item">
+							direction: rtl;<br>
+							text-align: right;
+							padding-left: 10px;
+						</div>
+						<div class="grid__item chinese">
+							<p>
+                               鉴于对人类家庭所有成员的鉴于对人类家庭所有成员的员的鉴于对人类家庭所
+							</p>
+						</div>
+						<div class="grid__item japanese">
+							<p>
+								よって、ここに、国連総会は すべての人間は
+                                加盟国は、国際連合と協力して
+							</p>
+						</div>
+						<div class="grid__item english-mixed">
+							<p>Vertical text example</p>
+						</div>
+						<div class="grid__item english-upright">
+							<p>Vertical text example</p>
+						</div>
+						<div class="grid__item arabic">
+							<p>
+								ا عرض أحد لتدخل تعسفي في حياته الخاصة أو أسرته أو مسكنه أو
+                                مراسلاته أو لحملات على شرفه وسمعته. ولكل شخص الحق في حماية
+                                القانون من مث الحملات. لكل شخص الحق في حرية التفكير والضمير
+                                رية تغيير ديانته أو عقيدته، وحرية الإعراب عنهما بالتعليم
+                                والممارسة وإقامة الشعائر ومراعاتها سواء أكان ذة التي لا غنى
+                                عنها لكرامته وللنمو الحر لشخصيته.
+							</p>
+						</div>	
+					</div>
+				</div>
+			</section>
+            
+			<section class="bg-attachment">
+				<div class="bg-attachment__container">
+					<h2>background-attachment</h2>
+					<div class="bg-block">
+						<div class="bg-block__item"></div>
+						<div class="bg-block__item"></div>
+						<div class="bg-block__item"></div>
+						<div class="bg-block__item"></div>
+						<div class="bg-block__item"></div>
+						<div class="bg-block__item"></div>
+						<div class="bg-block__item"></div>
+						<div class="bg-block__item"></div>
+						<div class="bg-block__item"></div>
+						<div class="bg-block__item"></div>
+						<div class="bg-block__item"></div>
+						<div class="bg-block__item"></div>
+						<div class="bg-block__item"></div>
+						<div class="bg-block__item"></div>
+						<div class="bg-block__item"></div>
+						<div class="bg-block__item"></div>
+						<div class="bg-block__item"></div>
+						<div class="bg-block__item"></div>
+						<div class="bg-block__item"></div>
+						<div class="bg-block__item"></div>
+					</div>
+				</div>
+			</section>
+
+			<section class="clip-path">
+				<div class="clip-path__container">
+					<h2>clip-path</h2>
+					<img class="clip-path__img" src="./img/img_four.jpg" alt="seqoua forester">
+				</div>
+
+		</main>
+
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__text">
+					<p>Footer</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
+		
+	

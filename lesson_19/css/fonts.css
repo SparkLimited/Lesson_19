@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "Henny Penny";
+    src: url("../fonts/hennypenny-regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
